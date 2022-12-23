@@ -12,7 +12,7 @@
     padding: 0;
     margin: 0;
 }
-.container {
+.advantages {
     max-width: 480px;
     
     margin-left: auto;
@@ -95,7 +95,7 @@
    
   @media screen and (min-width: 768px) {
         
-        .container {
+    .advantages {
             min-width: 100vw;
             padding-bottom: 204px; /* для секції*/
             padding-top: 60px; /* для секції, якщо не закладений в about*/
@@ -136,7 +136,7 @@
     }
   
     @media screen and (min-width: 1200px) {
-      .container {
+      .advantages {
         
         padding-bottom: 178px; /* для секції*/
         
@@ -253,7 +253,7 @@ color: #131313;
 margin-bottom: 20px;
           }
           .modal__video {
-            max-width:224px;
+            min-width:224px;
             background: #131313;
 border-radius: 10px;
           }
@@ -296,6 +296,9 @@ line-height: 28px;
                .modal__video {
                 max-width:448px;
                 
+              }
+              .video {
+                max-width:448px;
               }
           }
         
