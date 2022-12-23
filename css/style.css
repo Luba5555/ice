@@ -7,11 +7,7 @@
     background: #84A178;
 }
 
-.list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+
 .advantages {
     max-width: 480px;
     
@@ -37,6 +33,8 @@
       /*max-width: 480px;*/
       padding: 0;
       margin: 0;
+      list-style: none;
+    
     }
     .advantages-item {
       max-width: calc(100% - (2 * 0px));
