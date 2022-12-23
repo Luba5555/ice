@@ -229,29 +229,28 @@
         
         }
 
-        .modal-icon {
-          width: 20px;
-        height: 20px;
         
-        }
         .modal__title {
           font-family: 'Seymour One';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          /* identical to box height, or 150% */
 
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
-color: #131313;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+          color: #131313;
 
-margin-bottom: 20px;
+          margin-bottom: 20px;
+          margin-top: 0;
           }
           .modal__video {
-            min-width:224px;
+            position: relative;
+            min-width:220px;
+            min-height: 199px;
             background: #131313;
 border-radius: 10px;
           }
@@ -264,25 +263,28 @@ border-radius: 10px;
           line-height: 140%;
           /* or 20px */
           
+          margin-top: 20px;
+          margin-bottom: 0;          
           
           color: #131313;
           }
           
         .play-btn {
-          display: inline-block;
           
-          margin: auto;
-          
-          width: 36px;
-          height: 36px;
-          padding: 0;
-          
-          fill: #FCFCFC;
-          background: transparent;
-          align-items: center;
-          justify-content: center;
-          
-          border: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+        
+          transform: translateX(-50%) translateY(-50%);
+
+        width: 36px;
+        height: 36px;
+        fill: #FCFCFC;
+        background: transparent;
+        border: 0;
+
+        align-items: center;
+        justify-content: center;
         }
 
 
@@ -303,18 +305,18 @@ border-radius: 10px;
                }
                .modal__title {
                 font-size: 20px;
-line-height: 28px;
+
+                line-height: 28px;
+                margin-bottom: 32px;
                }
                .modal__desc {
                 font-size: 16px;
+                margin-top: 32px;
                }
                .modal__video {
-                max-width:448px;
-                
+                max-width:444px;
               }
-              .video {
-                max-width:448px;
-              }
+              
           }
         
   
